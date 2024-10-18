@@ -1,0 +1,77 @@
+.driver-dashboard {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .job-requests, .current-job {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .job p, .current-job p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .accept-job-btn {
+    background-color: #3498db;
+  }
+  
+  .status-buttons button {
+    margin-right: 10px;
+  }
+  
+  .going-pickup {
+    background-color: #e67e22;
+  }
+  
+  .order-picked {
+    background-color: #f1c40f;
+  }
+  
+  .en-route {
+    background-color: #8e44ad;
+  }
+  
+  .order-dropped {
+    background-color: #2ecc71;
+  }
+  
+  .no-jobs {
+    text-align: center;
+    color: #888;
+  }
+  

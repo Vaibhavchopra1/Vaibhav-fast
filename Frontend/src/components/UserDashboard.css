@@ -1,0 +1,132 @@
+/* File: UserDashboard.css */
+.user-dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form {
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.booking-form input[type="text"],
+.booking-form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #0056b3;
+}
+
+.map-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.map-container img {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method {
+  margin-top: 20px;
+}
+
+.payment-method select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payment-method button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-method button:hover {
+  background-color: #218838;
+}
+
+.circular-progress {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.2em;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.driver-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.driver-info p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.status-symbol {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffc107;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.status-symbol.completed {
+  background-color: #28a745;
+}
+
+.status-symbol.in-progress {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.real-time-map {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.real-time-map iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
